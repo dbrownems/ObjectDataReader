@@ -1,0 +1,2 @@
+# ObjectDataReader
+The ObjectDataReader wraps a collection of CLR objects in a DbDataReader.      This is useful for doing high-speed data loads with SqlBulkCopy, and copying collections  of entities to a DataTable for use with SQL Server Table-Valued parameters, or for interop     /// with older ADO.NET applciations.     ///      /// For explicit control over the fields projected by the DataReader, just wrap your collection of entities in a anonymous type projection before wrapping it in an ObjectDataReader.
